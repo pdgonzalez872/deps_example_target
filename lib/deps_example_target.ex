@@ -13,6 +13,7 @@ defmodule DepsExampleTarget do
 
   """
   def hello do
+    IO.puts("First change, first commit")
     :world
   end
 end
